@@ -1,33 +1,29 @@
-# Hello Database
 
---------------------------------------------------------------------------------
 
-## Requirements
+###Database Social Media
+Example
 
-Start experimenting with database like SQL. Example: MySQL, PostgreSQL, SQLite
+id:
+Fullname:
+Username:
+Email:
+Password:
+Bio :
+Location:
+Website:
+Birthday:
 
-### Input
 
-- Various data you already have in your program
+###Posts
 
-### Process
-
-- Modeling those data to conform with better schema in SQL database
-
-### Output
-
-- Better data model
-
---------------------------------------------------------------------------------
-
-## Level 0
-
-- Install one or more database management system (DBMS)
-- Try to connect those via your terminal
-
---------------------------------------------------------------------------------
-
-## Level 1
-
-- Prepare your program to be used with the new data source
-- Connect your program with that data source
+| field    | Typt    | size |   |   |
+|----------|---------|------|---|---|
+| Id       | integer | -    |   |   |
+| Fullname | string  | 30   |   |   |
+| Username | string  | 20   |   |   |
+| Email    | string  | 30   |   |   |
+| Password | string  | 25   |   |   |
+| Bio      | text    | -    |   |   |
+| Location | string  | 30   |   |   |
+| Website  | string  | 50   |   |   |
+| Birthday | integer | 20   |   |   |

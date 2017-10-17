@@ -1,0 +1,31 @@
+{
+  "name": "hello-database",
+  "version": "1.0.0",
+  "description": "## Database Social Media",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arian77/hello-database.git"
+  },
+  "keywords": [
+    "as"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arian77/hello-database/issues"
+  },
+  "homepage": "https://github.com/arian77/hello-database#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "request": "^2.83.0",
+    "sqlite3": "^3.1.13"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
